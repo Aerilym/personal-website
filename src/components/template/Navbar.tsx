@@ -79,7 +79,7 @@ export default function Navbar() {
     return (
       <Box
         onClick={() => {
-          router.push(page.link);
+          router.push('/' + page.link);
         }}
         key={page.name}
       >
