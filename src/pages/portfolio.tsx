@@ -387,6 +387,8 @@ function FilterComponent({
           onChange={handleLanguageSelection}
           customChipDetails={
             Object.keys(languages).reduce((acc, language) => {
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-ignore
               acc[language] = {
                 key: language,
                 option: languages[language as keyof typeof languages].name,
@@ -407,6 +409,8 @@ function FilterComponent({
           onChange={handleFrameworkSelection}
           customChipDetails={
             Object.keys(frameworks).reduce((acc, framework) => {
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-ignore
               acc[framework] = {
                 key: framework,
                 option: frameworks[framework as keyof typeof frameworks].name,
@@ -427,6 +431,8 @@ function FilterComponent({
           onChange={handleDatabaseSelection}
           customChipDetails={
             Object.keys(databases).reduce((acc, database) => {
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-ignore
               acc[database] = {
                 key: database,
                 option: databases[database as keyof typeof databases].name,
@@ -447,6 +453,8 @@ function FilterComponent({
           onChange={handlePlatformSelection}
           customChipDetails={
             Object.keys(platforms).reduce((acc, platform) => {
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-ignore
               acc[platform] = {
                 key: platform,
                 option: platforms[platform as keyof typeof platforms].name,
