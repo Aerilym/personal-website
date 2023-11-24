@@ -10,7 +10,7 @@ import { deepPurple, grey } from '@mui/material/colors';
 import { createContext, useContext, useMemo, useState } from 'react';
 
 type ContextProps = {
-  colorMode: { 
+  colorMode: {
     toggleColorMode: () => void;
     currentMode: PaletteMode;
   };
