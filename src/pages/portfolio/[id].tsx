@@ -144,7 +144,7 @@ export default function Portfolio({ portfolioData }: { portfolioData: PortfolioD
       </Box>
 
       <Box>
-        <Button
+        {/* <Button
           size="medium"
           color="primary"
           variant="contained"
@@ -154,7 +154,7 @@ export default function Portfolio({ portfolioData }: { portfolioData: PortfolioD
           onClick={() => setOpenShare(!openShare)}
         >
           Share
-        </Button>
+        </Button> */}
 
         {portfolioData.githubLink && (
           <Button

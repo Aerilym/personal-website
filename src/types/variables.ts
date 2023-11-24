@@ -43,6 +43,11 @@ export const primaryTags = {
     abbreviation: 'Contributor',
     color: '#ff854b',
   }),
+  founder: new Tag({
+    name: 'Founder',
+    abbreviation: 'Founder',
+    color: '#ff4b4b',
+  }),
 };
 
 export const secondaryTags = {
@@ -120,7 +125,7 @@ export const frameworks = {
     name: 'NextJS',
     abbreviation: 'Next',
     link: 'https://nextjs.org/',
-    color: '#000000',
+    color: '#ffffff',
   }),
 };
 
